@@ -8,6 +8,7 @@
     const template = actors.map(actor => {
       return `
         <div class="actor">
+        </br>
           <span>${actor.who}</span>
           <span>${actor.type}</span>
           <span>${actor.amount}</span>

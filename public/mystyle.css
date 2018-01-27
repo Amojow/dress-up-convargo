@@ -5,21 +5,25 @@ body {
 }
 h1 {
 	color: navy;
-    margin-left: 20%;
+	text-align: center;
 }
 h2 {
-	color: navy;
-	margin-left: 15%;
+	color:  #4CAF50;
+	text-align: center;
+}
+h3 {
+	color:  #4CAF50;
+	text-align: center;
 }
 input[type=text] {
 	background-color: white;
     color: black;
-    margin-left: 5%;
+   
 }
 input[type=number] {
 	background-color: white;
     color: black;
-    margin-left: 5%;
+    
 }
 button {
     background-color: #4CAF50; /* Green */
@@ -30,8 +34,17 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin-left: 30%;
+    margin-left: 50%;
+    position: element(input[type=number]);
+  
 }
 img {
-	margin-left: 10%;
+	display: block;
+	margin: auto;
+	
+}
+#actors {
+	color: navy;
+	margin-left: 5%;
+
 }
